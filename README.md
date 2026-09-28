@@ -23,6 +23,5 @@ Welcome to my C++ repository! This repository serves as a centralized collection
 ├── 02-Functions-Pointers/# Functions, Pass by Value/Ref, Pointers, DMA
 ├── 03-OOPs/              # Classes, Objects, Inheritance, Polymorphism
 ├── 04-STL/               # Vectors, Maps, Sets, Iterators, Algorithms
-├── 05-Data-Structures/   # Arrays, Linked Lists, Stacks, Queues, Trees, Graphs
-├── 06-Algorithms/        # Sorting, Searching, Recursion, DP, Greedy
-└── 07-Problem-Solving/   # LeetCode and Codeforces solutions
+├── 05-DSA/   # Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, Sorting, Searching, Recursion, DP, Greedy
+└── 06-Problem-Solving/   # LeetCode and Codeforces solutions

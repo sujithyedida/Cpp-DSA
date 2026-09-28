@@ -28,6 +28,5 @@ int main(){
     else{
         cout<<"Neither profit nor loss";
     }
-
     return 0;
 }

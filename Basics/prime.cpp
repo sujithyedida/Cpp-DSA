@@ -36,7 +36,6 @@ int prime(){
 }
 
 int main(){
-    //calling the function prime which decides whether a number is prime or not
-    prime();
+    prime();//calling the function prime which decides whether a number is prime or not
     return 0;
 }

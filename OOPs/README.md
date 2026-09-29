@@ -1,76 +1,76 @@
-🎯 C++ Object-Oriented Programming (OOP) Course Syllabus
-📍 Module 1: Introduction to OOP Principles
-🔄 Procedural vs. Object-Oriented Paradigm: Key differences, advantages of modular design, and real-world modeling.
+# 🎯 C++ Object-Oriented Programming (OOP) Course Syllabus
 
-🏗️ Objects and Classes: Defining blueprints (classes) and instances (objects).
+## Module 1: Fundamental OOP Concepts 💡
 
-⚙️ State and Behavior: Understanding attributes (member variables) and methods (member functions).
+* **Procedural vs. Object-Oriented Paradigm:** Key differences, advantages of modular design, and real-world modeling.
+* **Objects and Classes:** Defining blueprints (classes) and instances (objects).
+* **State and Behavior:** Understanding attributes (member variables) and methods (member functions).
 
-🔒 Module 2: Access Control and Encapsulation
-🛡️ Data Hiding: Protecting object integrity by preventing direct access to data.
+---
 
-🔑 Access Specifiers:
+## Module 2: Access Control and Encapsulation 🔐
 
-🌐 public: Unrestricted access from outside the class.
+* **Data Hiding:** Protecting object integrity by preventing direct access to internal data.
+* **Access Specifiers:**
+* `public`: Unrestricted access from outside the class.
+* `private`: Accessible only within the class.
+* `protected`: Accessible within the class and derived classes.
 
-🔐 private: Accessible only within the class.
 
-🛡️ protected: Accessible within the class and derived classes.
+* **Getters and Setters:** Controlled read and write access to private members.
 
-🎛️ Getters and Setters: Controlled read and write access to private members.
+---
 
-⏳ Module 3: Object Lifecycle Management
-🛠️ Constructors:
+## Module 3: Object Lifecycle Management ⏳
 
-⚙️ Default Constructors
+* **Constructors:**
+* Default Constructors
+* Parameterized Constructors
+* Copy Constructors (Shallow vs. Deep Copying)
+* Delegating and Explicit Constructors
 
-📥 Parameterized Constructors
 
-📋 Copy Constructors (Shallow vs. Deep Copying)
+* **Destructors:** Automatic resource cleanup and memory management.
+* **Initialization Lists:** Efficient attribute setup prior to body execution.
 
-🔗 Delegating and Explicit Constructors
+---
 
-🧹 Destructors: Automatic resource cleanup and memory release.
+## Module 4: Inheritance and Hierarchies 🌿
 
-📝 Initialization Lists: Efficient attribute setup before body execution.
+* **Base and Derived Classes:** Extending existing class definitions for code reusability.
+* **Modes of Inheritance:** Public, protected, and private inheritance models.
+* **Types of Inheritance:**
+* Single Inheritance
+* Multiple Inheritance (and resolving the Diamond Problem via Virtual Inheritance)
+* Multilevel and Hierarchical Inheritance
 
-🧬 Module 4: Inheritance and Class Hierarchies
-🌳 Base and Derived Classes: Extending existing class definitions.
 
-🚦 Modes of Inheritance: Public, protected, and private inheritance models.
 
-🌿 Types of Inheritance:
+---
 
-➡️ Single Inheritance
+## Module 5: Polymorphism and Abstraction 🎭
 
-🔀 Multiple Inheritance (and the Diamond Problem solution via Virtual Inheritance)
+* **Compile-Time Polymorphism (Static Binding):**
+* Function Overloading
+* Operator Overloading
 
-🪜 Multilevel and Hierarchical Inheritance
 
-🎭 Module 5: Polymorphism and Abstraction
-⚡ Compile-Time Polymorphism (Static Binding):
+* **Run-Time Polymorphism (Dynamic Binding):**
+* Virtual Functions and Function Overriding
+* Virtual Method Tables (vtables) and Virtual Pointers (vptrs)
 
-🔀 Function Overloading
 
-➕ Operator Overloading
+* **Abstraction and Interfaces:**
+* Pure Virtual Functions
+* Abstract Classes vs. Interfaces
 
-🔄 Run-Time Polymorphism (Dynamic Binding):
 
-🏷️ Virtual Functions and Function Overriding
 
-📊 Virtual Method Tables (vtables) and Virtual Pointers (vptrs)
+---
 
-🎨 Abstraction and Interfaces:
+## Module 6: Advanced OOP Concepts ⚙️️
 
-⭕ Pure Virtual Functions
-
-🧱 Abstract Classes vs. Interfaces
-
-🚀 Module 6: Advanced OOP Concepts
-🤝 Friendship: Friend Functions and Friend Classes (controlled access breaking encapsulation).
-
-📌 Static Members: Class-wide attributes and functions shared across all instances.
-
-💣 Virtual Destructors: Preventing memory leaks in dynamic inheritance trees.
-
-🛡️ RAII (Resource Acquisition Is Initialization): Managing resource lifetimes safely.
+* **Friendship:** Friend Functions and Friend Classes (controlled access breaking encapsulation).
+* **Static Members:** Class-wide attributes and functions shared across all instances.
+* **Virtual Destructors:** Preventing memory leaks in dynamic inheritance trees.
+* **RAII (Resource Acquisition Is Initialization):** Ensuring exception-safe resource management.

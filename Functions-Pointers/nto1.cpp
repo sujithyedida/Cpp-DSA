@@ -3,7 +3,7 @@ using namespace std;
 
 int print(int a){
     cout<<a<<endl;
-    if (a>0){
+    if (a>1){
         print(a-1);
     }
 }

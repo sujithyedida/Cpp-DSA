@@ -9,7 +9,7 @@ int main(){
 
     map<string,int> age = { {"Max",18} , {"Robin",16} };
 
-    cout<<"The age of Max is "<<age["Max"];
+    cout<<"The age of Max is "<<age["Max"]; //accessing the elements using keys
 
     return 0;
 

@@ -20,6 +20,9 @@ int main(){
     //removing a value
     age.erase("Max");  //--> removes the value of "Max" along with key 
 
+    //check the size of the map
+    cout<<age.size()<<endl;
+
     for (auto person : age){
         cout<<person.first<<" : "<<person.second<<endl;
     }

@@ -1,5 +1,4 @@
 // creating a class named teacher
-
 #include<iostream>
 #include<string>
 using namespace std;
